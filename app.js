@@ -13,6 +13,8 @@ counterPlusElem.addEventListener("click", () => {
 });
 
 counterMinusElem.addEventListener("click", () => {
+
+
     count--;
     checkLimit();
     updateDisplay();
@@ -25,7 +27,7 @@ function updateDisplay() {
 
 // Added function to check number limit
 function checkLimit() {
-    if (count <= 0) {
+    if (count == 0) {
         counterMinusElem.disabled = true;
     } else if (count == 50) {
         counterPlusElem.disabled = true;

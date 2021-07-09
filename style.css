@@ -16,6 +16,10 @@ body {
     text-transform: capitalize;
 }
 
+img {
+    width: 100px;
+}
+
 .counter-box {
     flex: 0 0 50%;
     text-align: center;
